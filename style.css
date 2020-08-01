@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+form
+{
+    width:500px;
+    height: 1020px;
+    align-content: center;
+}
+
+input[type="text"]
+{
+    width: inherit;
+    height: 70px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+input[type="text"]::placeholder
+{
+    color: #e16868;
+}
+#myInput {
+     position:relative;
+    align-content: center;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width:inherit;
+    padding: 1px;
+    margin: -10px auto 0 auto;
+    background-color: #ff7575;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+   
+}
+
+
+
+
+
+body {
+    background-image: url(cloudheart1.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: 100% 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    
+}
+
+.box { 
+  margin: 20px auto;
+  max-width: 500px;
+  height: 60px; 
+  text-align: center; 
+  background-size: 100% 100%;
+}
+
+.box .container1 input{
+   width: 100%;
+   max-width: 1000px;
+}
+
+img {
+  border-radius: 90%;
+    width: 100%;
+    height: auto;
+}
+#pooja {
+  border-radius: 90%;
+    width: 90%;
+    height: 20%;
+}
+
+.name {
+  font-size: 22px;
+  background: linear-gradient(
+    to right, 
+    hsl(15, 100%, 15%), 
+   hsl(15, 100%, 65%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: center;
+  padding: 12px;
+  
+}
+
+#myTable tr {
+  border-bottom: 2px solid black;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #ffff99;
+}
